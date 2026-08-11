@@ -1,0 +1,10 @@
+{
+  "description": "Showcase a luxury resort with stunning visuals and seamless navigation, offering users an immersive experience to explore accommodations, dining, and booking options.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
