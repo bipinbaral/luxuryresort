@@ -85,7 +85,7 @@ export default function Offers() {
             Best rates guaranteed direct.
           </h2>
           <p className="mt-4 mb-8 max-w-md mx-auto text-sm leading-relaxed" style={{ color: '#968B7F' }}>
-            Booking directly with Miravel always secures the best available rate, plus flexibility on cancellation that third-party platforms cannot offer.
+            Booking directly with Chautari always secures the best available rate, plus flexibility on cancellation that third-party platforms cannot offer.
           </p>
           <button onClick={() => router.push('/booking')} className="btn-primary" style={{ background: '#253227' }}>
             Enquire directly

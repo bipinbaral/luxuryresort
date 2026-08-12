@@ -67,7 +67,7 @@ export default function Nav() {
               className="display tracking-widest uppercase"
               style={{ fontSize: '22px', letterSpacing: '0.22em', color: logoColor, transition: 'color 0.4s' }}
             >
-              Miravel
+              Chautari
             </span>
             <span
               className="tracking-widest uppercase"
@@ -116,7 +116,7 @@ export default function Nav() {
       {/* Mobile menu overlay */}
       <div className={`menu-overlay ${menuOpen ? 'open' : ''}`}>
         <div className="flex items-center justify-between mb-16">
-          <span className="display text-ivory tracking-widest uppercase" style={{ fontSize: '20px', letterSpacing: '0.2em' }}>Miravel</span>
+          <span className="display text-ivory tracking-widest uppercase" style={{ fontSize: '20px', letterSpacing: '0.2em' }}>Chautari</span>
           <button onClick={() => setMenuOpen(false)} className="text-ivory/60 hover:text-ivory text-2xl">✕</button>
         </div>
         <div className="flex flex-col gap-2">
@@ -140,7 +140,7 @@ export default function Nav() {
           >
             Enquire / Reserve
           </Link>
-          <p className="text-ivory/30 text-xs tracking-widest mt-6 text-center uppercase">+960 660 0001 · hello@miravel.com</p>
+          <p className="text-ivory/30 text-xs tracking-widest mt-6 text-center uppercase">+960 660 0001 · hello@chautari.com</p>
         </div>
       </div>
     </>

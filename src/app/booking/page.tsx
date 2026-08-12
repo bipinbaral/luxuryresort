@@ -87,7 +87,7 @@ export default function BookingEnquiry() {
           <p className="label mb-3" style={{ color: '#C6A97D' }}>Reserve</p>
           <h1 className="display text-ivory" style={{ fontSize: 'clamp(36px, 5vw, 70px)', lineHeight: 0.95 }}>
             Begin your<br />
-            <span className="display-italic">Miravel journey.</span>
+            <span className="display-italic">Chautari journey.</span>
           </h1>
         </div>
       </section>
@@ -214,7 +214,7 @@ export default function BookingEnquiry() {
                         style={{ marginTop: '3px', accentColor: '#8A7256', width: '14px', height: '14px', flexShrink: 0, cursor: 'pointer' }}
                       />
                       <label htmlFor="newsletter" className="text-sm cursor-pointer" style={{ color: '#968B7F', lineHeight: 1.6 }}>
-                        I'd like to receive occasional updates, offers, and journal stories from Miravel.
+                        I'd like to receive occasional updates, offers, and journal stories from Chautari.
                       </label>
                     </div>
                   </fieldset>

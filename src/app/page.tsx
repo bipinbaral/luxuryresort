@@ -46,7 +46,7 @@ export default function Home() {
         <div ref={parallaxRef} className="parallax-img">
           <img
             src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=2200&h=1400&fit=crop&auto=format"
-            alt="Miravel Resort — dock at sunrise over the Indian Ocean"
+            alt="Chautari Resort — dock at sunrise over the Indian Ocean"
             style={{ width: '100%', height: '120%', objectFit: 'cover', objectPosition: 'center' }}
           />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(20,18,15,0.25) 0%, rgba(20,18,15,0.55) 100%)' }} />
@@ -61,7 +61,7 @@ export default function Home() {
               className="display text-ivory mt-4"
               style={{ fontSize: 'clamp(52px, 9vw, 128px)', lineHeight: 0.95, letterSpacing: '-0.01em' }}
             >
-              Miravel
+              Chautari
             </h1>
             <p
               className="display-italic text-ivory/75 mt-3"
@@ -108,7 +108,7 @@ export default function Home() {
             A place where the pace of the sea becomes your own.
           </h2>
           <p className="text-warm-gray mt-6 leading-relaxed" style={{ fontSize: '16px', color: '#968B7F' }}>
-            Miravel occupies 34 acres of a private island in the UNESCO-protected Baa Atoll. Forty-two villas and residences. Three restaurants. An award-winning spa. And a staff philosophy built on the quiet art of anticipation.
+            Chautari occupies 34 acres of a private island in the UNESCO-protected Baa Atoll. Forty-two villas and residences. Three restaurants. An award-winning spa. And a staff philosophy built on the quiet art of anticipation.
           </p>
           <button onClick={() => router.push('/accommodations')} className="btn-outline mt-10">
             Discover the resort
@@ -127,19 +127,19 @@ export default function Home() {
                 <span className="display-italic">into the landscape.</span>
               </h2>
               <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.8 }}>
-                Miravel was conceived by a single guiding principle: that architecture should earn the landscape it inhabits. Every structure — built of reclaimed teak, rammed earth, and locally quarried coral stone — was sited to preserve sightlines across the atoll.
+                Chautari was conceived by a single guiding principle: that architecture should earn the landscape it inhabits. Every structure — built of reclaimed teak, rammed earth, and locally quarried coral stone — was sited to preserve sightlines across the atoll.
               </p>
               <p className="mt-4 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.8 }}>
                 The result is a resort that feels discovered rather than built. The kind of place that takes three days to begin to understand, and a lifetime to forget.
               </p>
               <button onClick={() => router.push('/experiences')} className="btn-outline mt-10 self-start">
-                The Miravel way →
+                The Chautari way →
               </button>
             </RevealSection>
             <RevealSection delay={150} className="order-1 md:order-2 img-hover" style={{ minHeight: '420px' }}>
               <img
                 src="https://images.unsplash.com/photo-1526786220381-1d21eedf92bf?w=900&h=700&fit=crop&auto=format"
-                alt="Miravel infinity pool at dusk"
+                alt="Chautari infinity pool at dusk"
                 style={{ width: '100%', height: '100%', minHeight: '420px', objectFit: 'cover', display: 'block' }}
               />
             </RevealSection>
@@ -276,13 +276,13 @@ export default function Home() {
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(20,18,15,0.65)' }} />
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-12">
           <RevealSection className="max-w-lg">
-            <p className="label" style={{ color: '#C6A97D' }}>Dining at Miravel</p>
+            <p className="label" style={{ color: '#C6A97D' }}>Dining at Chautari</p>
             <h2 className="display text-ivory mt-4" style={{ fontSize: 'clamp(32px, 5vw, 64px)' }}>
               Three restaurants,<br />
               <span className="display-italic">one philosophy.</span>
             </h2>
             <p className="text-ivory/60 mt-6 leading-relaxed" style={{ fontSize: '15px', lineHeight: 1.8 }}>
-              From the glass pavilion of Seabreeze to the barefoot ease of Coral Terrace, every meal at Miravel traces the ocean from which it came.
+              From the glass pavilion of Seabreeze to the barefoot ease of Coral Terrace, every meal at Chautari traces the ocean from which it came.
             </p>
             <button onClick={() => router.push('/dining')} className="btn-ghost mt-10">
               Explore dining
@@ -479,7 +479,7 @@ export default function Home() {
                 <span className="display-italic">Republic of Maldives.</span>
               </h2>
               <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.8 }}>
-                Miravel is reached by a 35-minute seaplane from Malé's Velana International Airport, or a 20-minute speedboat transfer. Our team coordinates every detail of your journey.
+                Chautari is reached by a 35-minute seaplane from Malé's Velana International Airport, or a 20-minute speedboat transfer. Our team coordinates every detail of your journey.
               </p>
               <div className="mt-8 flex flex-col gap-4">
                 {[

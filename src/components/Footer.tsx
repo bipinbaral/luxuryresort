@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="relative z-10 flex flex-col items-center text-center py-20 px-6">
           <p className="label" style={{ color: '#C6A97D' }}>Begin your journey</p>
           <h2 className="display text-ivory mt-4" style={{ fontSize: 'clamp(32px, 5vw, 60px)' }}>
-            Reserve your stay at Miravel
+            Reserve your stay at Chautari
           </h2>
           <p className="text-ivory/60 mt-4 max-w-lg" style={{ fontSize: '15px', lineHeight: 1.7 }}>
             Our reservations team is available around the clock to craft an itinerary tailored precisely to you.
@@ -48,7 +48,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="display tracking-widest uppercase text-ivory mb-1" style={{ fontSize: '20px', letterSpacing: '0.2em' }}>Miravel</div>
+            <div className="display tracking-widest uppercase text-ivory mb-1" style={{ fontSize: '20px', letterSpacing: '0.2em' }}>Chautari</div>
             <div className="tracking-widest uppercase text-ivory/40" style={{ fontSize: '8px', letterSpacing: '0.28em' }}>Resort & Spa · Maldives</div>
             <p className="text-ivory/45 mt-6 leading-relaxed" style={{ fontSize: '13px' }}>
               Baa Atoll, Republic of Maldives.<br />
@@ -98,7 +98,7 @@ export default function Footer() {
             <p className="label mb-5" style={{ color: '#8A7256' }}>Contact</p>
             <div className="flex flex-col gap-3 text-sm text-ivory/50">
               <span>+960 660 0001</span>
-              <span>hello@miravel.com</span>
+              <span>hello@chautari.com</span>
               <span className="leading-relaxed">Baa Atoll, North Malé,<br />Republic of Maldives, 20026</span>
             </div>
             <div className="mt-6 p-4 border border-ivory/10 rounded-sm">
@@ -113,7 +113,7 @@ export default function Footer() {
 
         <div className="border-t border-ivory/8 mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-ivory/25 text-xs tracking-wide">
-            © {new Date().getFullYear()} Miravel Resort & Spa. All rights reserved.
+            © {new Date().getFullYear()} Chautari Resort & Spa. All rights reserved.
           </p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms & Conditions', 'Accessibility'].map(t => (

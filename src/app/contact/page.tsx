@@ -74,11 +74,11 @@ export default function Contact() {
               {[
                 {
                   heading: 'Reservations',
-                  lines: ['+960 660 0001', 'reservations@miravel.com', 'Open 24 hours, 7 days'],
+                  lines: ['+960 660 0001', 'reservations@chautari.com', 'Open 24 hours, 7 days'],
                 },
                 {
                   heading: 'General enquiries',
-                  lines: ['hello@miravel.com'],
+                  lines: ['hello@chautari.com'],
                 },
                 {
                   heading: 'Address',
@@ -184,7 +184,7 @@ export default function Contact() {
             className="text-center"
             style={{ background: 'rgba(250,248,243,0.95)', padding: '28px 40px', border: '1px solid rgba(138,114,86,0.3)' }}
           >
-            <p className="display" style={{ fontSize: '20px', color: '#1C1A17' }}>Miravel Resort & Spa</p>
+            <p className="display" style={{ fontSize: '20px', color: '#1C1A17' }}>Chautari Resort & Spa</p>
             <p className="text-xs tracking-widest uppercase mt-1" style={{ color: '#8A7256' }}>Baa Atoll · Maldives</p>
             <p className="text-xs mt-2" style={{ color: '#968B7F' }}>5°12′N, 73°01′E</p>
           </div>

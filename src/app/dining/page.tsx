@@ -44,7 +44,7 @@ export default function Dining() {
               <span className="display-italic">We simply listen.</span>
             </h2>
             <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
-              Executive Chef Arun Kapila was born on the Malabar Coast and trained under three Michelin-starred kitchens before returning to the Indian Ocean he grew up reading. Every menu at Miravel begins with what arrived on the dock that morning.
+              Executive Chef Arun Kapila was born on the Malabar Coast and trained under three Michelin-starred kitchens before returning to the Indian Ocean he grew up reading. Every menu at Chautari begins with what arrived on the dock that morning.
             </p>
             <p className="mt-4 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
               Our herb and spice garden — tended by four gardeners — provides fragrant punctuation to a cuisine rooted in restraint and respect.

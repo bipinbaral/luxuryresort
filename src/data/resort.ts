@@ -41,7 +41,7 @@ export const SUITES = [
     guests: 2,
     price: 'From $1,420 / night',
     tagline: 'Perched at the edge of the world.',
-    description: 'The most dramatically sited accommodation at Miravel, the Cliff Pavilion commands uninterrupted panoramas of the Indian Ocean. An infinity pool seems to pour into the sea; the pavilion architecture frames sky and horizon as living art.',
+    description: 'The most dramatically sited accommodation at Chautari, the Cliff Pavilion commands uninterrupted panoramas of the Indian Ocean. An infinity pool seems to pour into the sea; the pavilion architecture frames sky and horizon as living art.',
     features: ['Infinity pool', 'Ocean panoramas', 'Private dining terrace', 'Separate lounge', 'In-villa spa bath', 'Dedicated butler'],
     image: 'https://images.unsplash.com/photo-1615880480595-f5f9b4fb530e?w=1200&h=800&fit=crop&auto=format',
     gallery: [
@@ -75,7 +75,7 @@ export const SUITES = [
     guests: 6,
     price: 'From $4,500 / night',
     tagline: 'A resort within a resort.',
-    description: 'The pinnacle of Miravel accommodation, the Presidential Suite occupies an entire private island connected by a timber walkway. Three bedrooms, a private cinema, chef\'s kitchen, and a full spa facility make this an entirely self-contained world.',
+    description: 'The pinnacle of Chautari accommodation, the Presidential Suite occupies an entire private island connected by a timber walkway. Three bedrooms, a private cinema, chef\'s kitchen, and a full spa facility make this an entirely self-contained world.',
     features: ['Private island', 'Three bedrooms', 'Private chef', 'Home cinema', 'Spa & treatment room', 'Helicopter transfers'],
     image: 'https://images.unsplash.com/photo-1731336478850-6bce7235e320?w=1200&h=800&fit=crop&auto=format',
     gallery: [
@@ -151,7 +151,7 @@ export const EXPERIENCES = [
 
 export const TESTIMONIALS = [
   {
-    quote: "Every detail at Miravel feels considered without being contrived. The silence here is extraordinary — the kind you stop searching for and finally find.",
+    quote: "Every detail at Chautari feels considered without being contrived. The silence here is extraordinary — the kind you stop searching for and finally find.",
     author: "Camille V.",
     origin: "Paris, France",
     suite: "Cliff Pavilion",
@@ -163,7 +163,7 @@ export const TESTIMONIALS = [
     suite: "Ocean Villa",
   },
   {
-    quote: "The staff seem to understand what you need before you know it yourself. Miravel operates at a frequency most places never reach.",
+    quote: "The staff seem to understand what you need before you know it yourself. Chautari operates at a frequency most places never reach.",
     author: "Yuna M.",
     origin: "Tokyo, Japan",
     suite: "Garden Suite",
@@ -175,7 +175,7 @@ export const DINING = [
     name: 'Seabreeze',
     type: 'Fine Dining',
     tagline: 'The ocean at your table.',
-    description: 'Miravel\'s signature restaurant occupies a glass pavilion suspended above the lagoon. Chef Arun Kapila translates the day\'s catch into an evolving tasting menu rooted in Indian Ocean traditions.',
+    description: 'Chautari\'s signature restaurant occupies a glass pavilion suspended above the lagoon. Chef Arun Kapila translates the day\'s catch into an evolving tasting menu rooted in Indian Ocean traditions.',
     hours: 'Dinner: 6:30 pm – 10:30 pm',
     dress: 'Resort elegant',
     image: 'https://images.unsplash.com/photo-1779265298717-e3b21e7973e7?w=1000&h=700&fit=crop&auto=format',
@@ -202,7 +202,7 @@ export const DINING = [
 
 export const SPA_TREATMENTS = [
   {
-    name: 'Miravel Signature Ritual',
+    name: 'Chautari Signature Ritual',
     duration: '180 min',
     price: '$420',
     description: 'Our defining treatment begins with a warm coconut shell exfoliation, followed by a blended massage technique drawn from Thai, Balinese, and Ayurvedic traditions.',
@@ -276,9 +276,9 @@ export const JOURNAL_POSTS = [
     title: 'The Art of Doing Nothing',
     category: 'Reflections',
     date: 'November 12, 2025',
-    excerpt: 'In an age of relentless productivity, Miravel has made an audacious proposition: that the most restorative act is the deliberate suspension of all purpose.',
+    excerpt: 'In an age of relentless productivity, Chautari has made an audacious proposition: that the most restorative act is the deliberate suspension of all purpose.',
     image: 'https://images.unsplash.com/photo-1590490359854-dfba19688d70?w=900&h=600&fit=crop&auto=format',
-    author: 'Miravel Editorial',
+    author: 'Chautari Editorial',
     readTime: '5 min read',
   },
   {
@@ -308,7 +308,7 @@ export const JOURNAL_POSTS = [
     date: 'August 28, 2025',
     excerpt: 'Each evening, as the sun lowers over the lagoon, the resort observes a fifteen-minute silence. No music, no announcements — just the call of birds and the sound of water.',
     image: 'https://images.unsplash.com/photo-1599560324079-af5f94f2c37e?w=900&h=600&fit=crop&auto=format',
-    author: 'Miravel Editorial',
+    author: 'Chautari Editorial',
     readTime: '4 min read',
   },
 ]

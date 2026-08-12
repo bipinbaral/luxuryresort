@@ -38,13 +38,13 @@ export default function Spa() {
       <section className="py-20 px-6">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <Reveal>
-            <p className="label mb-4">Miravel Spa</p>
+            <p className="label mb-4">Chautari Spa</p>
             <h2 className="display" style={{ fontSize: 'clamp(26px, 3.5vw, 46px)', lineHeight: 1.15 }}>
               A spa rooted in<br />
               <span className="display-italic">ancient traditions.</span>
             </h2>
             <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
-              The Miravel Spa draws from three of the Indian Ocean's great healing traditions: Ayurvedic medicine from the Malabar coast, Balinese bodywork, and the cooling therapies of the Thai hill monasteries.
+              The Chautari Spa draws from three of the Indian Ocean's great healing traditions: Ayurvedic medicine from the Malabar coast, Balinese bodywork, and the cooling therapies of the Thai hill monasteries.
             </p>
             <p className="mt-4 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
               Eight treatment rooms, a heated vitality pool, a hammam, and a meditation pavilion sit within a garden of healing plants — many of which are harvested directly for use in treatments.
