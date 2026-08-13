@@ -120,7 +120,7 @@ export default function Home() {
       </section>
 
       {/* ── BRAND STORY ── */}
-      <section className="py-8 md:py-16">
+      <section className="py-8 md:py-18 relative" style={{ backgroundImage: 'url("/images/ourstory background lineart.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <div className="max-w-screen-xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-0 items-stretch" style={{ minHeight: '560px' }}>
             <RevealSection className="order-2 md:order-1 flex flex-col justify-center pr-0 md:pr-16 py-12 md:py-0">
