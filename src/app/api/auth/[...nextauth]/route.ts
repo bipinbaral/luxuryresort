@@ -5,7 +5,7 @@ import { PrismaClient } from "@prisma/client"
 
 const prisma = new PrismaClient()
 
-const handler = NextAuth({
+const { handlers } = NextAuth({
   providers: [
     CredentialsProvider({
       name: 'Credentials',
@@ -58,4 +58,6 @@ const handler = NextAuth({
   }
 })
 
-export { handler as GET, handler as POST }
+// Wrap handlers to fix Next.js 15 type mismatch with NextAuth beta (params as Promise)
+export const GET = async (req: any, ctx: any) => handlers.GET(req, ctx)
+export const POST = async (req: any, ctx: any) => handlers.POST(req, ctx)
