@@ -19,7 +19,7 @@ export default function Experiences() {
         className="relative flex items-end"
         style={{
           height: '70vh', minHeight: '480px',
-          backgroundImage: 'images/into the landscape.png',
+          backgroundImage: 'url("/images/into the landscape.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
