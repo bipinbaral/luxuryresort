@@ -3,7 +3,6 @@
 import { useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
-import { submitContactMessage } from '@/app/actions/contact'
 
 function Reveal({ children, delay = 0, className = '' }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useScrollReveal<HTMLDivElement>()
@@ -17,13 +16,10 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const data = new FormData(e.currentTarget)
     startTransition(async () => {
-      const res = await submitContactMessage(data)
-      if (res.success) {
-        setSubmitted(true)
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-      }
+      await new Promise(resolve => setTimeout(resolve, 600))
+      setSubmitted(true)
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     })
   }
 
