@@ -1,4 +1,5 @@
 import NextAuth from "next-auth"
+import { NextRequest } from "next/server"
 import CredentialsProvider from "next-auth/providers/credentials"
 import { PrismaClient } from "@prisma/client"
 // Assuming bcrypt or similar will be used in real app, hardcoding for demo
@@ -58,6 +59,6 @@ const { handlers } = NextAuth({
   }
 })
 
-// Wrap handlers to fix Next.js 15 type mismatch with NextAuth beta (params as Promise)
-export const GET = async (req: any, ctx: any) => handlers.GET(req, ctx)
-export const POST = async (req: any, ctx: any) => handlers.POST(req, ctx)
+// Wrap handlers to fix Next.js 15 type mismatch with NextAuth beta
+export const GET = (req: NextRequest) => handlers.GET(req)
+export const POST = (req: NextRequest) => handlers.POST(req)
