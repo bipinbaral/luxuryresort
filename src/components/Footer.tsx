@@ -49,9 +49,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="display tracking-widest uppercase text-ivory mb-1" style={{ fontSize: '20px', letterSpacing: '0.2em' }}>Chautari</div>
-            <div className="tracking-widest uppercase text-ivory/40" style={{ fontSize: '8px', letterSpacing: '0.28em' }}>Resort & Spa · Maldives</div>
-            <p className="text-ivory/45 mt-6 leading-relaxed" style={{ fontSize: '13px' }}>
-              Baa Atoll, Republic of Maldives.<br />
+            <div className="tracking-widest uppercase text-ivory/40" style={{ fontSize: '8px', letterSpacing: '0.28em' }}>Resort & Spa · Nepal</div>
+            <p className="mt-4 text-xs text-ivory/70 leading-relaxed max-w-sm">
+              Pumdikot, Pokhara, Nepal.<br />
               UNESCO World Biosphere Reserve.
             </p>
             <div className="flex gap-4 mt-6">
@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="flex flex-col gap-3 text-sm text-ivory/50">
               <span>+960 660 0001</span>
               <span>hello@chautari.com</span>
-              <span className="leading-relaxed">Baa Atoll, North Malé,<br />Republic of Maldives, 20026</span>
+              <span className="leading-relaxed">Pumdikot,<br />Pokhara, Nepal 33700</span>
             </div>
             <div className="mt-6 p-4 border border-ivory/10 rounded-sm">
               <p className="text-ivory/35 text-xs tracking-wide mb-2">Reservations</p>

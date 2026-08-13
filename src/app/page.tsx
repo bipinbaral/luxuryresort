@@ -45,8 +45,8 @@ export default function Home() {
       <section ref={heroRef} className="parallax-hero" style={{ height: '100vh', minHeight: '600px' }}>
         <div ref={parallaxRef} className="parallax-img">
           <img
-            src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=2200&h=1400&fit=crop&auto=format"
-            alt="Chautari Resort — dock at sunrise over the Indian Ocean"
+            src="/images/resort hero image.png"
+            alt="Cherdung Luxury Resort Hero"
             style={{ width: '100%', height: '120%', objectFit: 'cover', objectPosition: 'center' }}
           />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(20,18,15,0.25) 0%, rgba(20,18,15,0.55) 100%)' }} />
@@ -56,7 +56,7 @@ export default function Home() {
           style={{ opacity: heroOpacity, transition: 'opacity 0.1s' }}
         >
           <div style={{ animationDelay: '0.2s' }}>
-            <p className="label" style={{ color: 'rgba(198,169,125,0.9)', letterSpacing: '0.28em' }}>Baa Atoll, Maldives</p>
+            <p className="label" style={{ color: 'rgba(198,169,125,0.9)', letterSpacing: '0.28em' }}>Pumdikot Pokhara Nepal</p>
             <h1
               className="display text-ivory mt-4"
               style={{ fontSize: 'clamp(52px, 9vw, 128px)', lineHeight: 0.95, letterSpacing: '-0.01em' }}
@@ -108,7 +108,7 @@ export default function Home() {
             A place where the pace of the sea becomes your own.
           </h2>
           <p className="text-warm-gray mt-6 leading-relaxed" style={{ fontSize: '16px', color: '#968B7F' }}>
-            Chautari occupies 34 acres of a private island in the UNESCO-protected Baa Atoll. Forty-two villas and residences. Three restaurants. An award-winning spa. And a staff philosophy built on the quiet art of anticipation.
+            Chautari occupies 34 acres of a private estate in Pumdikot, Pokhara. Forty-two villas and residences. Three restaurants. An award-winning spa. And a staff philosophy built on the quiet art of anticipation.
           </p>
           <button onClick={() => router.push('/accommodations')} className="btn-outline mt-10">
             Discover the resort
@@ -475,8 +475,8 @@ export default function Home() {
             <RevealSection delay={150}>
               <p className="label mb-4">Location & arrival</p>
               <h2 className="display" style={{ fontSize: 'clamp(28px, 4vw, 48px)', lineHeight: 1.1 }}>
-                Baa Atoll,<br />
-                <span className="display-italic">Republic of Maldives.</span>
+                Pumdikot, Pokhara,<br />
+                <span className="display-italic">Nepal.</span>
               </h2>
               <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.8 }}>
                 Chautari is reached by a 35-minute seaplane from Malé's Velana International Airport, or a 20-minute speedboat transfer. Our team coordinates every detail of your journey.

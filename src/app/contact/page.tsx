@@ -82,7 +82,7 @@ export default function Contact() {
                 },
                 {
                   heading: 'Address',
-                  lines: ['Baa Atoll, North Malé', 'Republic of Maldives', '20026'],
+                  lines: ['Pumdikot', 'Pokhara, Nepal', '33700'],
                 },
                 {
                   heading: 'Seaplane transfers',
@@ -176,7 +176,7 @@ export default function Contact() {
       <section style={{ height: '400px', background: '#2D3B2E', position: 'relative', overflow: 'hidden' }}>
         <img
           src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=1600&h=500&fit=crop&auto=format&sat=-30"
-          alt="Baa Atoll location"
+          alt="Pumdikot location"
           style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'saturate(0.4) brightness(0.7)' }}
         />
         <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -185,7 +185,7 @@ export default function Contact() {
             style={{ background: 'rgba(250,248,243,0.95)', padding: '28px 40px', border: '1px solid rgba(138,114,86,0.3)' }}
           >
             <p className="display" style={{ fontSize: '20px', color: '#1C1A17' }}>Chautari Resort & Spa</p>
-            <p className="text-xs tracking-widest uppercase mt-1" style={{ color: '#8A7256' }}>Baa Atoll · Maldives</p>
+            <p className="text-xs tracking-widest uppercase mt-1" style={{ color: '#8A7256' }}>Pumdikot · Pokhara · Nepal</p>
             <p className="text-xs mt-2" style={{ color: '#968B7F' }}>5°12′N, 73°01′E</p>
           </div>
         </div>

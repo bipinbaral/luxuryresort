@@ -39,7 +39,7 @@ export default function Experiences() {
         <Reveal>
           <span className="gold-rule mx-auto block mb-6" />
           <p className="leading-relaxed" style={{ fontSize: '16px', color: '#968B7F', lineHeight: 1.8 }}>
-            From the reef below the surface to the canopy above, every facet of Baa Atoll is yours to explore. Our experiences team curates adventures from the exhilarating to the profoundly still.
+            From the reef below the surface to the canopy above, every facet of Pumdikot is yours to explore. Our experiences team curates adventures from the exhilarating to the profoundly still.
           </p>
         </Reveal>
       </section>

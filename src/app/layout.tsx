@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Chautari Resort & Spa",
-  description: "Luxury resort in the Maldives",
+  description: "Luxury resort in Pumdikot, Pokhara, Nepal",
   verification: {
     google: "google-site-verification=YOUR_VERIFICATION_CODE",
   }
