@@ -45,7 +45,7 @@ export default function Home() {
       <section ref={heroRef} className="parallax-hero" style={{ height: '100vh', minHeight: '600px' }}>
         <div ref={parallaxRef} className="parallax-img">
           <video
-            src="/images/herobackgroundvideo.mp4"
+            src="images/herobackgroundvideo.mp4"
             autoPlay
             loop
             muted
