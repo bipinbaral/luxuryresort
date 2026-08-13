@@ -16,9 +16,9 @@ export default function Gallery() {
   const [lightbox, setLightbox] = useState<number | null>(null)
 
   return (
-    <div style={{ background: '#1C1A17', minHeight: '100vh' }}>
+    <div style={{ background: '#061A2F', minHeight: '100vh' }}>
       {/* Header */}
-      <section className="pt-36 pb-14 px-6 md:px-12 text-center" style={{ background: '#1C1A17' }}>
+      <section className="pt-36 pb-14 px-6 md:px-12 text-center" style={{ background: '#061A2F' }}>
         <Reveal>
           <p className="label mb-4" style={{ color: '#8A7256' }}>Gallery</p>
           <h1 className="display text-ivory" style={{ fontSize: 'clamp(36px, 6vw, 76px)', lineHeight: 0.95 }}>
@@ -42,7 +42,7 @@ export default function Gallery() {
                   className="img-hover cursor-pointer w-full"
                   style={{
                     height: img.aspect === 'tall' ? '500px' : img.aspect === 'wide' ? '260px' : '260px',
-                    background: '#2E2C29',
+                    background: '#0A2239',
                   }}
                   onClick={() => setLightbox(i)}
                 >
@@ -69,13 +69,13 @@ export default function Gallery() {
           onClick={() => setLightbox(null)}
         >
           <button
-            style={{ position: 'absolute', top: '24px', right: '32px', color: '#FAF8F3', fontSize: '28px', background: 'none', border: 'none', cursor: 'pointer', opacity: 0.7 }}
+            style={{ position: 'absolute', top: '24px', right: '32px', color: '#FCFCFA', fontSize: '28px', background: 'none', border: 'none', cursor: 'pointer', opacity: 0.7 }}
             onClick={() => setLightbox(null)}
           >
             ✕
           </button>
           <button
-            style={{ position: 'absolute', left: '24px', top: '50%', transform: 'translateY(-50%)', color: '#FAF8F3', fontSize: '28px', background: 'none', border: 'none', cursor: 'pointer', opacity: 0.6 }}
+            style={{ position: 'absolute', left: '24px', top: '50%', transform: 'translateY(-50%)', color: '#FCFCFA', fontSize: '28px', background: 'none', border: 'none', cursor: 'pointer', opacity: 0.6 }}
             onClick={e => { e.stopPropagation(); setLightbox(i => i !== null && i > 0 ? i - 1 : GALLERY_IMAGES.length - 1) }}
           >
             ‹
@@ -87,19 +87,19 @@ export default function Gallery() {
             onClick={e => e.stopPropagation()}
           />
           <button
-            style={{ position: 'absolute', right: '80px', top: '50%', transform: 'translateY(-50%)', color: '#FAF8F3', fontSize: '28px', background: 'none', border: 'none', cursor: 'pointer', opacity: 0.6 }}
+            style={{ position: 'absolute', right: '80px', top: '50%', transform: 'translateY(-50%)', color: '#FCFCFA', fontSize: '28px', background: 'none', border: 'none', cursor: 'pointer', opacity: 0.6 }}
             onClick={e => { e.stopPropagation(); setLightbox(i => i !== null ? (i + 1) % GALLERY_IMAGES.length : 0) }}
           >
             ›
           </button>
-          <p style={{ position: 'absolute', bottom: '24px', left: '50%', transform: 'translateX(-50%)', color: 'rgba(250,248,243,0.45)', fontSize: '12px', letterSpacing: '0.1em' }}>
+          <p style={{ position: 'absolute', bottom: '24px', left: '50%', transform: 'translateX(-50%)', color: 'rgba(252, 252, 250,0.45)', fontSize: '12px', letterSpacing: '0.1em' }}>
             {lightbox + 1} / {GALLERY_IMAGES.length} — {GALLERY_IMAGES[lightbox].alt}
           </p>
         </div>
       )}
 
       {/* CTA */}
-      <section className="py-16 px-6 text-center" style={{ background: '#1C1A17' }}>
+      <section className="py-16 px-6 text-center" style={{ background: '#061A2F' }}>
         <Reveal>
           <h2 className="display text-ivory" style={{ fontSize: 'clamp(22px, 3vw, 38px)' }}>
             Come and add your own story.

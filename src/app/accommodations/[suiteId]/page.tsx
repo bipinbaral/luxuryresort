@@ -33,7 +33,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
         />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(20,18,15,0.15) 0%, rgba(20,18,15,0.65) 100%)' }} />
         <div className="absolute inset-0 flex flex-col items-center justify-end pb-16 text-center px-6">
-          <span className="label" style={{ color: '#C6A97D', marginBottom: '10px' }}>{suite.category}</span>
+          <span className="label" style={{ color: '#285943', marginBottom: '10px' }}>{suite.category}</span>
           <h1 className="display text-ivory" style={{ fontSize: 'clamp(40px, 7vw, 90px)', lineHeight: 0.95 }}>{suite.name}</h1>
           <p className="display-italic text-ivory/70 mt-3" style={{ fontSize: 'clamp(14px, 2vw, 22px)' }}>{suite.tagline}</p>
         </div>
@@ -45,7 +45,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
               onClick={() => setActiveImg(i)}
               style={{
                 width: '60px', height: '42px',
-                border: `2px solid ${activeImg === i ? '#C6A97D' : 'transparent'}`,
+                border: `2px solid ${activeImg === i ? '#E6D2B5' : 'transparent'}`,
                 overflow: 'hidden',
                 transition: 'border-color 0.3s',
               }}
@@ -57,13 +57,13 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
       </section>
 
       {/* Breadcrumb */}
-      <div className="py-4 px-6 md:px-12 border-b" style={{ borderColor: 'rgba(138,114,86,0.2)' }}>
-        <div className="max-w-screen-xl mx-auto flex items-center gap-3 text-xs tracking-wide" style={{ color: '#968B7F' }}>
+      <div className="py-4 px-6 md:px-12 border-b" style={{ borderColor: 'rgba(217, 184, 140,0.2)' }}>
+        <div className="max-w-screen-xl mx-auto flex items-center gap-3 text-xs tracking-wide" style={{ color: '#4F5B63' }}>
           <button onClick={() => router.push('/')} className="hover:text-stone transition-colors">Home</button>
-          <span style={{ color: 'rgba(138,114,86,0.4)' }}>—</span>
+          <span style={{ color: 'rgba(217, 184, 140,0.4)' }}>—</span>
           <button onClick={() => router.push('/accommodations')} className="hover:text-stone transition-colors">Accommodations</button>
-          <span style={{ color: 'rgba(138,114,86,0.4)' }}>—</span>
-          <span style={{ color: '#1C1A17' }}>{suite.name}</span>
+          <span style={{ color: 'rgba(217, 184, 140,0.4)' }}>—</span>
+          <span style={{ color: '#061A2F' }}>{suite.name}</span>
         </div>
       </div>
 
@@ -78,7 +78,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
                 <h2 className="display" style={{ fontSize: 'clamp(26px, 3vw, 42px)', lineHeight: 1.15 }}>
                   {suite.description.split('.')[0]}.
                 </h2>
-                <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
+                <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#4F5B63', lineHeight: 1.85 }}>
                   {suite.description}
                 </p>
               </Reveal>
@@ -90,7 +90,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
                     <div
                       key={i}
                       className="img-hover cursor-pointer"
-                      style={{ height: '200px', background: '#C8AD8F' }}
+                      style={{ height: '200px', background: '#E6D2B5' }}
                       onClick={() => setActiveImg(i + 1)}
                     >
                       <img src={img} alt={`${suite.name} gallery ${i + 1}`} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
@@ -105,9 +105,9 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
                   <p className="label mb-6">Villa features</p>
                   <div className="grid grid-cols-2 gap-3">
                     {suite.features.map(f => (
-                      <div key={f} className="flex items-center gap-3 py-3 border-b" style={{ borderColor: 'rgba(138,114,86,0.18)' }}>
+                      <div key={f} className="flex items-center gap-3 py-3 border-b" style={{ borderColor: 'rgba(217, 184, 140,0.18)' }}>
                         <span style={{ width: '20px', height: '1px', background: '#8A7256', display: 'inline-block', flexShrink: 0 }} />
-                        <span className="text-sm" style={{ color: '#1C1A17' }}>{f}</span>
+                        <span className="text-sm" style={{ color: '#061A2F' }}>{f}</span>
                       </div>
                     ))}
                   </div>
@@ -120,7 +120,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
                   <p className="label mb-6">All villas include</p>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {['King-size bed', 'Bathrobes & slippers', 'Nespresso machine', 'Minibar', 'In-villa safe', 'High-speed WiFi', 'Smart TV & streaming', 'Turn-down service', 'Butler service'].map(a => (
-                      <div key={a} className="text-sm py-2" style={{ color: '#968B7F' }}>
+                      <div key={a} className="text-sm py-2" style={{ color: '#4F5B63' }}>
                         <span style={{ color: '#8A7256', marginRight: '8px' }}>◦</span>{a}
                       </div>
                     ))}
@@ -134,29 +134,29 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
               <Reveal>
                 <div
                   className="sticky top-24 p-8"
-                  style={{ background: '#FAF8F3', border: '1px solid rgba(138,114,86,0.2)' }}
+                  style={{ background: '#FCFCFA', border: '1px solid rgba(217, 184, 140,0.2)' }}
                 >
                   <span className="label mb-3 block">{suite.category}</span>
                   <h3 className="display" style={{ fontSize: '26px' }}>{suite.name}</h3>
                   <p className="display-italic mt-1 mb-5" style={{ fontSize: '15px', color: '#8A7256' }}>{suite.tagline}</p>
-                  <div className="border-t border-b py-4 mb-5" style={{ borderColor: 'rgba(138,114,86,0.2)' }}>
+                  <div className="border-t border-b py-4 mb-5" style={{ borderColor: 'rgba(217, 184, 140,0.2)' }}>
                     <div className="flex justify-between text-sm mb-2">
-                      <span style={{ color: '#968B7F' }}>Size</span>
-                      <span style={{ color: '#1C1A17' }}>{suite.size}</span>
+                      <span style={{ color: '#4F5B63' }}>Size</span>
+                      <span style={{ color: '#061A2F' }}>{suite.size}</span>
                     </div>
                     <div className="flex justify-between text-sm mb-2">
-                      <span style={{ color: '#968B7F' }}>Max guests</span>
-                      <span style={{ color: '#1C1A17' }}>{suite.guests} adults</span>
+                      <span style={{ color: '#4F5B63' }}>Max guests</span>
+                      <span style={{ color: '#061A2F' }}>{suite.guests} adults</span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span style={{ color: '#968B7F' }}>Rate</span>
-                      <span className="font-medium" style={{ color: '#253227' }}>{suite.price}</span>
+                      <span style={{ color: '#4F5B63' }}>Rate</span>
+                      <span className="font-medium" style={{ color: '#285943' }}>{suite.price}</span>
                     </div>
                   </div>
                   <button
                     onClick={() => router.push('/booking')}
                     className="btn-primary w-full justify-center"
-                    style={{ background: '#253227' }}
+                    style={{ background: '#285943' }}
                   >
                     Enquire & Reserve
                   </button>
@@ -166,7 +166,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
                   >
                     Check availability
                   </button>
-                  <p className="text-center text-xs mt-5 leading-relaxed" style={{ color: '#968B7F' }}>
+                  <p className="text-center text-xs mt-5 leading-relaxed" style={{ color: '#4F5B63' }}>
                     Complimentary seaplane transfers for stays of 5+ nights. Rates are per villa per night, exclusive of taxes.
                   </p>
                 </div>
@@ -177,7 +177,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
       </section>
 
       {/* Related suites */}
-      <section className="py-20 px-6 md:px-12" style={{ background: '#EBE6DD' }}>
+      <section className="py-20 px-6 md:px-12" style={{ background: '#F2EBE1' }}>
         <div className="max-w-screen-xl mx-auto">
           <Reveal>
             <div className="flex items-end justify-between mb-12">
@@ -192,7 +192,7 @@ export default function SuiteDetail({ params }: { params: Promise<{ suiteId: str
             {related.map((s, i) => (
               <Reveal key={s.id} delay={i * 100}>
                 <div className="group cursor-pointer" onClick={() => router.push(`/accommodations/${s.id}`)}>
-                  <div className="img-hover" style={{ height: '260px', background: '#C8AD8F' }}>
+                  <div className="img-hover" style={{ height: '260px', background: '#E6D2B5' }}>
                     <img src={s.image} alt={s.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                   </div>
                   <div className="pt-4">

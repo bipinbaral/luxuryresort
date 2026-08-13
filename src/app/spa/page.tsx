@@ -26,7 +26,7 @@ export default function Spa() {
       >
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(37,50,39,0.2) 0%, rgba(37,50,39,0.78) 100%)' }} />
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-12 pb-20 w-full">
-          <p className="label mb-3" style={{ color: '#C6A97D' }}>Spa & Wellness</p>
+          <p className="label mb-3" style={{ color: '#E6D2B5' }}>Spa & Wellness</p>
           <h1 className="display text-ivory" style={{ fontSize: 'clamp(40px, 6vw, 80px)', lineHeight: 0.95 }}>
             The body remembers<br />
             <span className="display-italic">what the mind forgets.</span>
@@ -43,15 +43,15 @@ export default function Spa() {
               A spa rooted in<br />
               <span className="display-italic">ancient traditions.</span>
             </h2>
-            <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
+            <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#4F5B63', lineHeight: 1.85 }}>
               The Chautari Spa draws from three of the Indian Ocean's great healing traditions: Ayurvedic medicine from the Malabar coast, Balinese bodywork, and the cooling therapies of the Thai hill monasteries.
             </p>
-            <p className="mt-4 leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.85 }}>
+            <p className="mt-4 leading-relaxed" style={{ fontSize: '15px', color: '#4F5B63', lineHeight: 1.85 }}>
               Eight treatment rooms, a heated vitality pool, a hammam, and a meditation pavilion sit within a garden of healing plants — many of which are harvested directly for use in treatments.
             </p>
           </Reveal>
           <Reveal delay={150}>
-            <div className="img-hover" style={{ height: '460px', background: '#2D3B2E' }}>
+            <div className="img-hover" style={{ height: '460px', background: '#1F4A36' }}>
               <img
                 src="https://images.unsplash.com/photo-1615880480595-f5f9b4fb530e?w=900&h=700&fit=crop&auto=format"
                 alt="Spa garden and treatment pavilion"
@@ -63,7 +63,7 @@ export default function Spa() {
       </section>
 
       {/* Facilities strip */}
-      <section className="py-12 px-6" style={{ background: '#EBE6DD' }}>
+      <section className="py-12 px-6" style={{ background: '#F2EBE1' }}>
         <div className="max-w-screen-xl mx-auto">
           <Reveal>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
@@ -76,10 +76,10 @@ export default function Spa() {
                 <div
                   key={stat.label}
                   className="text-center py-10 px-6"
-                  style={{ borderLeft: i > 0 ? '1px solid rgba(138,114,86,0.2)' : 'none' }}
+                  style={{ borderLeft: i > 0 ? '1px solid rgba(217, 184, 140,0.2)' : 'none' }}
                 >
                   <p className="display" style={{ fontSize: '52px', lineHeight: 1, color: '#8A7256' }}>{stat.value}</p>
-                  <p className="text-xs tracking-widest uppercase mt-2" style={{ color: '#968B7F' }}>{stat.label}</p>
+                  <p className="text-xs tracking-widest uppercase mt-2" style={{ color: '#4F5B63' }}>{stat.label}</p>
                 </div>
               ))}
             </div>
@@ -101,21 +101,21 @@ export default function Spa() {
             {SPA_TREATMENTS.map((treatment, i) => (
               <Reveal key={treatment.name} delay={i * 80}>
                 <div className="flex flex-col h-full">
-                  <div className="img-hover" style={{ height: '280px', background: '#2D3B2E' }}>
+                  <div className="img-hover" style={{ height: '280px', background: '#1F4A36' }}>
                     <img
                       src={treatment.image}
                       alt={treatment.name}
                       style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                     />
                   </div>
-                  <div className="flex-1 pt-5 pb-5 border-b" style={{ borderColor: 'rgba(138,114,86,0.2)' }}>
+                  <div className="flex-1 pt-5 pb-5 border-b" style={{ borderColor: 'rgba(217, 184, 140,0.2)' }}>
                     <h3 className="display" style={{ fontSize: '22px' }}>{treatment.name}</h3>
                     <div className="flex gap-4 mt-2 mb-4">
-                      <span className="text-xs" style={{ color: '#8A7256' }}>{treatment.duration}</span>
-                      <span className="text-xs" style={{ color: '#968B7F' }}>·</span>
-                      <span className="text-xs font-medium" style={{ color: '#253227' }}>{treatment.price}</span>
+                      <span className="text-xs" style={{ color: '#285943' }}>{treatment.duration}</span>
+                      <span className="text-xs" style={{ color: '#285943' }}>·</span>
+                      <span className="text-xs font-medium" style={{ color: '#285943' }}>{treatment.price}</span>
                     </div>
-                    <p className="text-sm leading-relaxed" style={{ color: '#968B7F', lineHeight: 1.8 }}>{treatment.description}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: '#4F5B63', lineHeight: 1.8 }}>{treatment.description}</p>
                   </div>
                   <div className="pt-4">
                     <button
@@ -132,10 +132,10 @@ export default function Spa() {
           </div>
 
           <Reveal delay={200} className="mt-16 text-center">
-            <p className="text-sm leading-relaxed max-w-md mx-auto mb-8" style={{ color: '#968B7F' }}>
+            <p className="text-sm leading-relaxed max-w-md mx-auto mb-8" style={{ color: '#4F5B63' }}>
               All treatments can be customised. In-villa spa services are available on request, and couples pavilion bookings are subject to availability.
             </p>
-            <button onClick={() => router.push('/booking')} className="btn-primary" style={{ background: '#253227' }}>
+            <button onClick={() => router.push('/booking')} className="btn-primary" style={{ background: '#285943' }}>
               Book a treatment
             </button>
           </Reveal>
@@ -143,12 +143,12 @@ export default function Spa() {
       </section>
 
       {/* Wellness programs */}
-      <section className="py-20 px-6" style={{ background: '#253227' }}>
+      <section className="py-20 px-6" style={{ background: '#285943' }}>
         <div className="max-w-screen-xl mx-auto">
           <Reveal>
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-12">
               <div>
-                <p className="label mb-3" style={{ color: '#C6A97D' }}>Wellness programs</p>
+                <p className="label mb-3" style={{ color: '#E6D2B5' }}>Wellness programs</p>
                 <h2 className="display text-ivory" style={{ fontSize: 'clamp(26px, 3.5vw, 46px)' }}>
                   Dedicated retreats<br />
                   <span className="display-italic">from 3 to 14 nights.</span>
@@ -170,7 +170,7 @@ export default function Spa() {
                   <p className="label mb-3" style={{ color: '#8A7256' }}>{prog.duration}</p>
                   <h3 className="display text-ivory mb-3" style={{ fontSize: '22px' }}>{prog.name}</h3>
                   <p className="text-ivory/50 text-sm leading-relaxed" style={{ lineHeight: 1.8 }}>{prog.description}</p>
-                  <button onClick={() => router.push('/booking')} className="mt-6 text-xs font-medium tracking-widest uppercase" style={{ color: '#C6A97D' }}>
+                  <button onClick={() => router.push('/booking')} className="mt-6 text-xs font-medium tracking-widest uppercase" style={{ color: '#E6D2B5' }}>
                     Enquire →
                   </button>
                 </div>

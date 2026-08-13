@@ -22,7 +22,7 @@ export default function RootLayout({
         <script defer data-domain="chautari.com" src="https://plausible.io/js/script.js"></script>
       </head>
       <body className="antialiased">
-        <div style={{ minHeight: '100vh', backgroundColor: '#F4F0E8', color: '#1C1A17' }}>
+        <div style={{ minHeight: '100vh', backgroundColor: '#F8F6F0', color: '#061A2F' }}>
           <Nav />
           <main>{children}</main>
           <Footer />

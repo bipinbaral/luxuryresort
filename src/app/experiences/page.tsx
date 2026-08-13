@@ -19,14 +19,14 @@ export default function Experiences() {
         className="relative flex items-end"
         style={{
           height: '70vh', minHeight: '480px',
-          backgroundImage: 'url(https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=2000&h=900&fit=crop&auto=format)',
+          backgroundImage: 'images/into the landscape.png',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(20,18,15,0.1) 0%, rgba(20,18,15,0.72) 100%)' }} />
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-12 pb-16 w-full">
-          <p className="label mb-3" style={{ color: '#C6A97D' }}>Experiences</p>
+          <p className="label mb-3" style={{ color: '#E6D2B5' }}>Experiences</p>
           <h1 className="display text-ivory" style={{ fontSize: 'clamp(40px, 6vw, 80px)', lineHeight: 0.95 }}>
             The island has<br />
             <span className="display-italic">a thousand faces.</span>
@@ -38,7 +38,7 @@ export default function Experiences() {
       <section className="py-16 px-6 max-w-2xl mx-auto text-center">
         <Reveal>
           <span className="gold-rule mx-auto block mb-6" />
-          <p className="leading-relaxed" style={{ fontSize: '16px', color: '#968B7F', lineHeight: 1.8 }}>
+          <p className="leading-relaxed" style={{ fontSize: '16px', color: '#4F5B63', lineHeight: 1.8 }}>
             From the reef below the surface to the canopy above, every facet of Pumdikot is yours to explore. Our experiences team curates adventures from the exhilarating to the profoundly still.
           </p>
         </Reveal>
@@ -51,7 +51,7 @@ export default function Experiences() {
             {EXPERIENCES.map((exp, i) => (
               <Reveal key={exp.id} delay={i * 80}>
                 <div className="group">
-                  <div className="img-hover" style={{ height: '360px', background: '#2D3B2E', position: 'relative' }}>
+                  <div className="img-hover" style={{ height: '360px', background: '#1F4A36', position: 'relative' }}>
                     <img
                       src={exp.image}
                       alt={exp.name}
@@ -59,15 +59,15 @@ export default function Experiences() {
                     />
                     <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(20,18,15,0.65) 0%, transparent 50%)' }} />
                     <div style={{ position: 'absolute', bottom: '20px', left: '24px', right: '24px' }}>
-                      <span className="label" style={{ color: '#C6A97D' }}>{exp.category}</span>
+                      <span className="label" style={{ color: '#285943' }}>{exp.category}</span>
                       <h2 className="display text-ivory mt-1" style={{ fontSize: '26px' }}>{exp.name}</h2>
                     </div>
                   </div>
-                  <div className="pt-5 pb-5 border-b" style={{ borderColor: 'rgba(138,114,86,0.2)' }}>
+                  <div className="pt-5 pb-5 border-b" style={{ borderColor: 'rgba(217, 184, 140,0.2)' }}>
                     <p className="display-italic mb-3" style={{ fontSize: '15px', color: '#8A7256' }}>{exp.tagline}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: '#968B7F', lineHeight: 1.75 }}>{exp.description}</p>
+                    <p className="text-sm leading-relaxed" style={{ color: '#4F5B63', lineHeight: 1.75 }}>{exp.description}</p>
                     <div className="flex items-center justify-between mt-5">
-                      <div className="flex gap-5 text-xs" style={{ color: '#968B7F' }}>
+                      <div className="flex gap-5 text-xs" style={{ color: '#4F5B63' }}>
                         <span className="flex items-center gap-2">
                           <span style={{ width: '14px', height: '1px', background: '#8A7256', display: 'inline-block' }} />
                           {exp.duration}
@@ -80,7 +80,7 @@ export default function Experiences() {
                       <button
                         onClick={() => router.push('/booking')}
                         className="text-xs font-medium tracking-widest uppercase px-4 py-2.5"
-                        style={{ border: '1px solid rgba(28,26,23,0.25)', color: '#1C1A17' }}
+                        style={{ border: '1px solid rgba(6, 26, 47,0.25)', color: '#061A2F' }}
                       >
                         Enquire
                       </button>

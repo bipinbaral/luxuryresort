@@ -32,10 +32,10 @@ export default function Contact() {
       <div className="min-h-screen flex flex-col items-center justify-center text-center px-6" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <span className="gold-rule mx-auto block mb-8" />
         <h1 className="display" style={{ fontSize: 'clamp(32px, 5vw, 64px)', lineHeight: 1 }}>Message sent.</h1>
-        <p className="mt-6 max-w-md mx-auto leading-relaxed" style={{ fontSize: '15px', color: '#968B7F', lineHeight: 1.8 }}>
+        <p className="mt-6 max-w-md mx-auto leading-relaxed" style={{ fontSize: '15px', color: '#4F5B63', lineHeight: 1.8 }}>
           We will get back to you shortly.
         </p>
-        <button onClick={() => router.push('/')} className="btn-primary mt-10" style={{ background: '#253227' }}>
+        <button onClick={() => router.push('/')} className="btn-primary mt-10" style={{ background: '#285943' }}>
           Return home
         </button>
       </div>
@@ -56,7 +56,7 @@ export default function Contact() {
       >
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(20,18,15,0.2) 0%, rgba(20,18,15,0.72) 100%)' }} />
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-12 pb-16 w-full">
-          <p className="label mb-3" style={{ color: '#C6A97D' }}>Contact</p>
+          <p className="label mb-3" style={{ color: '#E6D2B5' }}>Contact</p>
           <h1 className="display text-ivory" style={{ fontSize: 'clamp(36px, 5vw, 70px)', lineHeight: 0.95 }}>
             We are always<br />
             <span className="display-italic">here.</span>
@@ -89,10 +89,10 @@ export default function Contact() {
                   lines: ['Departing from Terminal 5,', 'Velana International Airport (MLE)', 'Transfers coordinated on booking'],
                 },
               ].map(item => (
-                <div key={item.heading} className="pb-8 border-b" style={{ borderColor: 'rgba(138,114,86,0.2)' }}>
+                <div key={item.heading} className="pb-8 border-b" style={{ borderColor: 'rgba(217, 184, 140,0.2)' }}>
                   <p className="label mb-3">{item.heading}</p>
                   {item.lines.map(line => (
-                    <p key={line} className="text-sm leading-relaxed" style={{ color: '#1C1A17' }}>{line}</p>
+                    <p key={line} className="text-sm leading-relaxed" style={{ color: '#061A2F' }}>{line}</p>
                   ))}
                 </div>
               ))}
@@ -160,11 +160,11 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <button type="submit" disabled={isPending} className="btn-primary" style={{ background: '#253227', opacity: isPending ? 0.7 : 1 }}>
+                <button type="submit" disabled={isPending} className="btn-primary" style={{ background: '#285943', opacity: isPending ? 0.7 : 1 }}>
                   {isPending ? 'Sending...' : 'Send message'}
                 </button>
               </div>
-              <p className="text-xs leading-relaxed" style={{ color: '#968B7F' }}>
+              <p className="text-xs leading-relaxed" style={{ color: '#4F5B63' }}>
                 We typically respond within 4 hours. For urgent enquiries, please call our reservations line directly.
               </p>
             </form>
@@ -173,7 +173,7 @@ export default function Contact() {
       </section>
 
       {/* Map placeholder */}
-      <section style={{ height: '400px', background: '#2D3B2E', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ height: '400px', background: '#1F4A36', position: 'relative', overflow: 'hidden' }}>
         <img
           src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=1600&h=500&fit=crop&auto=format&sat=-30"
           alt="Pumdikot location"
@@ -182,23 +182,23 @@ export default function Contact() {
         <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <div
             className="text-center"
-            style={{ background: 'rgba(250,248,243,0.95)', padding: '28px 40px', border: '1px solid rgba(138,114,86,0.3)' }}
+            style={{ background: 'rgba(252, 252, 250,0.95)', padding: '28px 40px', border: '1px solid rgba(217, 184, 140,0.3)' }}
           >
-            <p className="display" style={{ fontSize: '20px', color: '#1C1A17' }}>Chautari Resort & Spa</p>
+            <p className="display" style={{ fontSize: '20px', color: '#061A2F' }}>Chautari Resort & Spa</p>
             <p className="text-xs tracking-widest uppercase mt-1" style={{ color: '#8A7256' }}>Pumdikot · Pokhara · Nepal</p>
-            <p className="text-xs mt-2" style={{ color: '#968B7F' }}>5°12′N, 73°01′E</p>
+            <p className="text-xs mt-2" style={{ color: '#4F5B63' }}>5°12′N, 73°01′E</p>
           </div>
         </div>
       </section>
 
       {/* Quick reserve */}
-      <section className="py-16 px-6 text-center" style={{ background: '#EBE6DD' }}>
+      <section className="py-16 px-6 text-center" style={{ background: '#F2EBE1' }}>
         <Reveal>
           <p className="label mb-4">Ready to visit?</p>
           <h2 className="display" style={{ fontSize: 'clamp(22px, 3vw, 38px)' }}>
             Make a reservation enquiry.
           </h2>
-          <button onClick={() => router.push('/booking')} className="btn-primary mt-8" style={{ background: '#253227' }}>
+          <button onClick={() => router.push('/booking')} className="btn-primary mt-8" style={{ background: '#285943' }}>
             Enquire & Reserve
           </button>
         </Reveal>

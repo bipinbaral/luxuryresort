@@ -35,7 +35,7 @@ export default function Nav() {
 
   const navBg = scrolled || !isHeroPage ? 'nav-solid' : ''
   const textColor = scrolled || !isHeroPage ? 'text-stone' : 'text-ivory'
-  const logoColor = scrolled || !isHeroPage ? '#1C1A17' : '#FAF8F3'
+  const logoColor = scrolled || !isHeroPage ? '#061A2F' : '#FCFCFA'
 
   return (
     <>

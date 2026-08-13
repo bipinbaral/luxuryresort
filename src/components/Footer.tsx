@@ -13,7 +13,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer style={{ background: '#1C1A17', color: '#FAF8F3' }}>
+    <footer style={{ background: '#061A2F', color: '#FCFCFA' }}>
       {/* Pre-footer CTA band */}
       <div
         className="relative overflow-hidden"
@@ -23,9 +23,9 @@ export default function Footer() {
           backgroundPosition: 'center',
         }}
       >
-        <div style={{ position: 'absolute', inset: 0, background: 'rgba(28,26,23,0.72)' }} />
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(6, 26, 47,0.72)' }} />
         <div className="relative z-10 flex flex-col items-center text-center py-20 px-6">
-          <p className="label" style={{ color: '#C6A97D' }}>Begin your journey</p>
+          <p className="label" style={{ color: '#285943' }}>Begin your journey</p>
           <h2 className="display text-ivory mt-4" style={{ fontSize: 'clamp(32px, 5vw, 60px)' }}>
             Reserve your stay at Chautari
           </h2>
@@ -33,7 +33,7 @@ export default function Footer() {
             Our reservations team is available around the clock to craft an itinerary tailored precisely to you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <Link href="/booking" className="btn-primary" style={{ background: '#C6A97D', color: '#1C1A17' }}>
+            <Link href="/booking" className="btn-primary" style={{ background: '#E6D2B5', color: '#061A2F' }}>
               Enquire & Reserve
             </Link>
             <Link href="/contact" className="btn-ghost">
@@ -104,7 +104,7 @@ export default function Footer() {
             <div className="mt-6 p-4 border border-ivory/10 rounded-sm">
               <p className="text-ivory/35 text-xs tracking-wide mb-2">Reservations</p>
               <p className="text-ivory/70 text-xs">Available 24 hours, 7 days</p>
-              <Link href="/booking" className="inline-block mt-3 text-xs text-sand-light hover:text-ivory transition-colors tracking-widest uppercase" style={{ color: '#C6A97D' }}>
+              <Link href="/booking" className="inline-block mt-3 text-xs text-sand-light hover:text-ivory transition-colors tracking-widest uppercase" style={{ color: '#E6D2B5' }}>
                 Enquire now →
               </Link>
             </div>

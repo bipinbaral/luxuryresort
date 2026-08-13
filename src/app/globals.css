@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..125,400..700;1,75..125,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 @import 'tailwindcss';
 
 @theme {
-  --color-bone: #F4F0E8;
-  --color-ivory: #FAF8F3;
-  --color-stone: #1C1A17;
+  --color-bone: #F8F6F0;
+  --color-ivory: #FCFCFA;
+  --color-stone: #061A2F;
   --color-sand: #8A7256;
-  --color-sand-light: #C6A97D;
-  --color-forest: #253227;
-  --color-warm-gray: #968B7F;
-  --color-mist: #EBE6DD;
-  --color-charcoal: #2E2C29;
+  --color-sand-light: #E6D2B5;
+  --color-forest: #285943;
+  --color-warm-gray: #4F5B63;
+  --color-mist: #F2EBE1;
+  --color-charcoal: #0A2239;
 }
 
 * {
@@ -28,20 +28,25 @@ html {
 }
 
 body {
-  font-family: 'Instrument Sans', sans-serif;
-  background-color: #F4F0E8;
-  color: #1C1A17;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F8F6F0;
+  color: #061A2F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .display {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Handlee', cursive;
 }
 
 .display-italic {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Handlee', cursive;
   font-style: italic;
+}
+
+.signature {
+  font-family: 'Handlee', cursive;
+  font-weight: 400;
 }
 
 /* Scroll reveal */
@@ -88,9 +93,9 @@ body {
 
 /* Nav transparent → solid */
 .nav-solid {
-  background-color: rgba(250, 248, 243, 0.96) !important;
+  background-color: rgba(252, 252, 250, 0.96) !important;
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(138, 114, 86, 0.18);
+  border-bottom: 1px solid rgba(217, 184, 140, 0.18);
 }
 
 /* Thin gold rule */
@@ -107,9 +112,9 @@ body {
   align-items: center;
   gap: 8px;
   padding: 14px 36px;
-  background: #253227;
-  color: #FAF8F3;
-  font-family: 'Instrument Sans', sans-serif;
+  background: #285943;
+  color: #FCFCFA;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -119,7 +124,7 @@ body {
   transition: background 0.3s ease, transform 0.2s ease;
 }
 .btn-primary:hover {
-  background: #1C1A17;
+  background: #061A2F;
 }
 
 .btn-ghost {
@@ -128,19 +133,19 @@ body {
   gap: 8px;
   padding: 13px 34px;
   background: transparent;
-  color: #FAF8F3;
-  font-family: 'Instrument Sans', sans-serif;
+  color: #FCFCFA;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  border: 1px solid rgba(250, 248, 243, 0.5);
+  border: 1px solid rgba(252, 252, 250, 0.5);
   cursor: pointer;
   transition: border-color 0.3s ease, background 0.3s ease;
 }
 .btn-ghost:hover {
-  border-color: rgba(250, 248, 243, 0.9);
-  background: rgba(250, 248, 243, 0.08);
+  border-color: rgba(252, 252, 250, 0.9);
+  background: rgba(252, 252, 250, 0.08);
 }
 
 .btn-outline {
@@ -149,19 +154,19 @@ body {
   gap: 8px;
   padding: 13px 34px;
   background: transparent;
-  color: #1C1A17;
-  font-family: 'Instrument Sans', sans-serif;
+  color: #061A2F;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  border: 1px solid rgba(28, 26, 23, 0.35);
+  border: 1px solid rgba(6, 26, 47, 0.35);
   cursor: pointer;
   transition: border-color 0.3s ease, background 0.3s ease;
 }
 .btn-outline:hover {
-  border-color: #1C1A17;
-  background: rgba(28, 26, 23, 0.04);
+  border-color: #061A2F;
+  background: rgba(6, 26, 47, 0.04);
 }
 
 /* Page hero parallax */
@@ -181,14 +186,14 @@ body {
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #8A7256;
+  color: #285943;
 }
 
 /* Mobile menu overlay */
 .menu-overlay {
   position: fixed;
   inset: 0;
-  background: #1C1A17;
+  background: #061A2F;
   z-index: 100;
   display: flex;
   flex-direction: column;
@@ -206,10 +211,10 @@ body {
   padding: 14px 0;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(28, 26, 23, 0.25);
-  font-family: 'Instrument Sans', sans-serif;
+  border-bottom: 1px solid rgba(6, 26, 47, 0.25);
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  color: #1C1A17;
+  color: #061A2F;
   outline: none;
   transition: border-color 0.3s ease;
 }
@@ -217,17 +222,17 @@ body {
   border-color: #8A7256;
 }
 .form-input::placeholder {
-  color: #968B7F;
+  color: #4F5B63;
 }
 .form-select {
   width: 100%;
   padding: 14px 0;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(28, 26, 23, 0.25);
-  font-family: 'Instrument Sans', sans-serif;
+  border-bottom: 1px solid rgba(6, 26, 47, 0.25);
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  color: #1C1A17;
+  color: #061A2F;
   outline: none;
   appearance: none;
   cursor: pointer;
