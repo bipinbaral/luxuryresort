@@ -45,7 +45,7 @@ export default function Home() {
       <section ref={heroRef} className="parallax-hero" style={{ height: '100vh', minHeight: '600px' }}>
         <div ref={parallaxRef} className="parallax-img">
           <video
-            src="images/herobackgroundvideo.mp4"
+            src="/images/herobackgroundvideo.mp4"
             autoPlay
             loop
             muted
@@ -120,7 +120,7 @@ export default function Home() {
       </section>
 
       {/* ── BRAND STORY ── */}
-      <section className="py-8 md:py-18 relative" style={{ backgroundImage: 'url("/images/ourstory background lineart.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+      <section className="py-8 md:py-18 relative" style={{ backgroundImage: 'url("/images/ourstory-background-lineart.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <div className="max-w-screen-xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-0 items-stretch" style={{ minHeight: '560px' }}>
             <RevealSection className="order-2 md:order-1 flex flex-col justify-center pr-0 md:pr-16 py-12 md:py-0">
@@ -141,7 +141,7 @@ export default function Home() {
             </RevealSection>
             <RevealSection delay={150} className="order-1 md:order-2 img-hover" style={{ minHeight: '420px' }}>
               <img
-                src="/images/into the landscape.png"
+                src="/images/into-the-landscape.png"
                 alt="Chautari infinity pool at dusk"
                 style={{ width: '100%', height: '100%', minHeight: '420px', objectFit: 'cover', display: 'block' }}
               />
@@ -458,7 +458,7 @@ export default function Home() {
             <RevealSection>
               <div style={{ height: '460px', background: '#1F4A36', position: 'relative', overflow: 'hidden' }}>
                 <img
-                  src="/images/Location & arrival.png"
+                  src="/images/location-arrival.png"
                   alt="Paragliding image"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />

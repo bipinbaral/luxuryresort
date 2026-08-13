@@ -104,7 +104,7 @@ export const EXPERIENCES = [
     duration: '2 hours',
     tagline: 'Drift on mirror-still waters under the peaks.',
     description: 'Board a traditional wooden doonga for a private sunset row across Phewa Lake, complete with warm spiced tea and local delicacies as the mountains reflect on the water.',
-    image: '/images/Experiences/Phewa Lake Twilight Boating.png',
+    image: '/images/experiences/phewa-lake-twilight-boating.png',
     price: '$120 per couple',
   },
   {
@@ -114,7 +114,7 @@ export const EXPERIENCES = [
     duration: '3 hours',
     tagline: 'A journey of quiet reflection.',
     description: 'Walk ancient trails up to the World Peace Pagoda. Learn about local Buddhist traditions and enjoy panoramic views of the Pokhara Valley and Himalayan skyline.',
-    image: '/images/Experiences/Peace Stupa Pilgrimage.png',
+    image: '/images/experiences/peace-stupa-pilgrimage.png',
     price: '$65 per person',
   },
   {
@@ -124,7 +124,7 @@ export const EXPERIENCES = [
     duration: '1.5 hours',
     tagline: 'Soar with the eagles above the valley.',
     description: 'Take flight from Sarangkot with an experienced pilot. Glide effortlessly over terraced farms and lakes while taking in the majestic Machhapuchhre (Fishtail) peak.',
-    image: '/images/Experiences/Tandem Paragliding.png',
+    image: '/images/experiences/tandem-paragliding.png',
     price: '$180 per person',
   },
   {
@@ -134,7 +134,7 @@ export const EXPERIENCES = [
     duration: 'Half day',
     tagline: 'A feast set among the clouds.',
     description: 'A private jeep ride to a secluded alpine meadow. Our team prepares a gourmet lunch featuring local organic produce, served with chilled wine and sweeping mountain views.',
-    image: '/images/Experiences/Private Alpine Picnic.png',
+    image: '/images/experiences/private-alpine-picnic.png',
     price: '$350 per couple',
   },
   {
@@ -144,7 +144,7 @@ export const EXPERIENCES = [
     duration: '4 hours',
     tagline: 'Meet the people who call the mountains home.',
     description: 'Visit a traditional Gurung village, witness local artisans crafting Dhaka fabric, and share a homestyle dal bhat meal with a family whose roots run deep in the Himalayas.',
-    image: '/images/Experiences/Gurung Heritage Visit.png',
+    image: '/images/experiences/gurung-heritage-visit.png',
     price: '$110 per person',
   },
 ]
