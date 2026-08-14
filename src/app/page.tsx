@@ -44,12 +44,9 @@ export default function Home() {
       {/* ── HERO ── */}
       <section ref={heroRef} className="parallax-hero" style={{ height: '100vh', minHeight: '600px' }}>
         <div ref={parallaxRef} className="parallax-img">
-          <video
-            src="/images/herobackgroundvideo.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
+          <img
+            src="/images/resort-hero-image.jpg"
+            alt="Chautari Luxury Resort"
             style={{ width: '100%', height: '120%', objectFit: 'cover', objectPosition: 'center' }}
           />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(20,18,15,0.25) 0%, rgba(20,18,15,0.55) 100%)' }} />
