@@ -18,14 +18,14 @@ export default function Footer() {
       <div
         className="relative overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1615880480595-f5f9b4fb530e?w=1600&h=400&fit=crop&auto=format)',
+          backgroundImage: 'url("/images/above%20footer%20background.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(6, 26, 47,0.72)' }} />
         <div className="relative z-10 flex flex-col items-center text-center py-20 px-6">
-          <p className="label" style={{ color: '#285943' }}>Begin your journey</p>
+          <p className="label" style={{ color: '#ffffffff' }}>Begin your journey</p>
           <h2 className="display text-ivory mt-4" style={{ fontSize: 'clamp(32px, 5vw, 60px)' }}>
             Reserve your stay at Chautari
           </h2>
