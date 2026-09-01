@@ -10,6 +10,12 @@ function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
   return <div ref={ref} className="reveal" style={{ transitionDelay: `${delay}ms` }}>{children}</div>
 }
 
+export function generateStaticParams() {
+  return SUITES.map(s => ({
+    suiteId: s.id,
+  }))
+}
+
 export default function SuiteDetail({ params }: { params: Promise<{ suiteId: string }> }) {
   const router = useRouter()
   const { suiteId } = use(params)
