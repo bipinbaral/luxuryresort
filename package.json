@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node -r ./patch-trace.cjs ./node_modules/next/dist/bin/next dev",
+    "build": "node -r ./patch-trace.cjs ./node_modules/next/dist/bin/next build",
     "start": "next start",
     "lint": "next lint",
     "format": "oxfmt"
