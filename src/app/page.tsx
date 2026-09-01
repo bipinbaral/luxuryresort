@@ -322,7 +322,7 @@ export default function Home() {
               <div className="img-hover" style={{ height: '480px', background: '#8A7256' }}>
                 <img
                   src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=900&h=700&fit=crop&auto=format"
-                  alt="Himalayan Honeymoon Escape offer"
+                  alt="Honeymoon Escape offer"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
               </div>
@@ -332,7 +332,7 @@ export default function Home() {
                 Seasonal Offer
               </div>
               <h2 className="display" style={{ fontSize: 'clamp(28px, 4vw, 48px)', lineHeight: 1.1 }}>
-                Himalayan Honeymoon Escape
+                Honeymoon Escape
               </h2>
               <p className="display-italic mt-2" style={{ fontSize: '18px', color: '#8A7256' }}>
                 3 nights from NPR 185,000

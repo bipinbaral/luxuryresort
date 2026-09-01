@@ -233,7 +233,7 @@ export const SPA_TREATMENTS = [
 
 export const OFFERS = [
   {
-    name: 'Himalayan Honeymoon Escape',
+    name: 'Honeymoon Escape',
     badge: 'Seasonal Offer',
     nights: '3 nights from NPR 185,000',
     includes: [
