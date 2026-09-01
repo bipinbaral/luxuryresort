@@ -233,13 +233,20 @@ export const SPA_TREATMENTS = [
 
 export const OFFERS = [
   {
-    name: 'Himalayan Romance',
-    badge: 'Romance',
-    nights: '3 Nights',
-    includes: ['Mountain Suite accommodation', 'Private sunset views of Annapurna', 'Couples Himalayan spa treatment', 'Champagne & flowers on arrival', 'Daily breakfast for two'],
-    saving: '15% off total stay',
+    name: 'Himalayan Honeymoon Escape',
+    badge: 'Seasonal Offer',
+    nights: '3 nights from NPR 185,000',
+    includes: [
+      'Private sunset experience',
+      'Romantic couples’ spa treatment',
+      'Welcome drinks & flowers on arrival',
+      'Daily breakfast for two',
+      'Scenic Himalayan or nature views',
+      'Special honeymoon room setup',
+    ],
+    saving: '3 nights from NPR 185,000',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1000&h=700&fit=crop&auto=format',
-    valid: 'Valid through March 2026',
+    valid: 'Valid through March 2027',
   },
   {
     name: 'Wellness Retreat',

@@ -322,7 +322,7 @@ export default function Home() {
               <div className="img-hover" style={{ height: '480px', background: '#8A7256' }}>
                 <img
                   src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=900&h=700&fit=crop&auto=format"
-                  alt="Honeymoon Escape offer"
+                  alt="Himalayan Honeymoon Escape offer"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
               </div>
@@ -332,23 +332,30 @@ export default function Home() {
                 Seasonal Offer
               </div>
               <h2 className="display" style={{ fontSize: 'clamp(28px, 4vw, 48px)', lineHeight: 1.1 }}>
-                Honeymoon Escape
+                Himalayan Honeymoon Escape
               </h2>
               <p className="display-italic mt-2" style={{ fontSize: '18px', color: '#8A7256' }}>
-                3 nights from $1,850 per night
+                3 nights from NPR 185,000
               </p>
               <p className="mt-6 leading-relaxed" style={{ fontSize: '15px', color: '#4F5B63', lineHeight: 1.8 }}>
-                Your Ocean Villa stay includes a private sunset dhoni cruise, a Couples Sanctuary spa treatment, champagne on arrival, and daily breakfast for two.
+                Celebrate your honeymoon surrounded by the natural beauty and peaceful charm of Nepal. Your private stay includes a romantic sunset experience, a relaxing couples’ spa treatment, a special welcome arrangement, and daily breakfast for two.
               </p>
               <ul className="mt-6 flex flex-col gap-2">
-                {['Private sunset sailing', 'Couples Sanctuary treatment', 'Champagne & flowers on arrival', 'Daily full breakfast'].map(item => (
+                {[
+                  'Private sunset experience',
+                  'Romantic couples’ spa treatment',
+                  'Welcome drinks & flowers on arrival',
+                  'Daily breakfast for two',
+                  'Scenic Himalayan or nature views',
+                  'Special honeymoon room setup',
+                ].map(item => (
                   <li key={item} className="flex items-center gap-3 text-sm" style={{ color: '#4F5B63' }}>
                     <span style={{ width: 24, height: 1, background: '#8A7256', display: 'inline-block', flexShrink: 0 }} />
                     {item}
                   </li>
                 ))}
               </ul>
-              <p className="mt-3 text-xs tracking-wide" style={{ color: '#8A7256' }}>Valid through March 2026</p>
+              <p className="mt-3 text-xs tracking-wide" style={{ color: '#8A7256' }}>Valid through March 2027</p>
               <button onClick={() => router.push('/booking')} className="btn-primary mt-8" style={{ background: '#285943' }}>
                 Enquire about this offer
               </button>

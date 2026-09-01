@@ -115,6 +115,18 @@ export default function Footer() {
           <p className="text-ivory/25 text-xs tracking-wide">
             © {new Date().getFullYear()} Chautari Resort & Spa. All rights reserved.
           </p>
+          <p className="text-ivory/40 text-xs tracking-wide">
+            Design and Developed by{' '}
+            <a
+              href="https://www.baralbipin.com.np"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline transition-colors font-medium"
+              style={{ color: '#E6D2B5' }}
+            >
+              BipinCreates
+            </a>
+          </p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms & Conditions', 'Accessibility'].map(t => (
               <button key={t} className="text-ivory/25 hover:text-ivory/50 transition-colors text-xs">{t}</button>
